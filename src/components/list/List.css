@@ -1,0 +1,23 @@
+.list-items {
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    color:  #0000;
+    width: calc( (100% / 3) - 10px);
+    height: 390px;
+    overflow-y: auto;
+}
+
+h2 {
+    margin: 0;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.empty {
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+}
+
