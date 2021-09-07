@@ -24,7 +24,7 @@ class Todo extends Component {
 
     this.state = {
       current_todo: '',
-      todos: storageTodos
+      todos: storageTodos !== null ? storageTodos : []
     }
 
   }
